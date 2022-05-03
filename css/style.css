@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+header nav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #3d87e7;
+}
+
+.carmar {
+  margin: 5%;
+}
+
+.fotmar {
+  margin: 2%;
+}
+
+.titulozeus {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.parrafozeus {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.tituloprod {
+  display: flex;
+  justify-content: center;
+}
+
+.metopagot {
+  display: flex;
+  justify-content: center;
+}
+
+.metopaimg {
+  display: block;
+  justify-content: center;
+  margin: 5%;
+  width: 75%;
+}
+
+.titulozona {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+.gap1 {
+  margin: 3%;
+}
+
+.titulozeus {
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.parrafozeus {
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.donde {
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-section {
+  color: #3d87e7;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+footer {
+  margin-top: 10%;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.redes-sociales i {
+  font-size: 40px;
+  padding: 0 20px 0 20px;
+}
+
+.copy {
+  margin-top: 5%;
+  color: #3d87e7;
+  display: flex;
+  justify-content: center;
+}
+
+/*
+.color1 {background-color: #112c3d;}
+.color2 {background-color: #0d536b;}
+.color3 {background-color: #0989a4;}
+.color4 {background-color: #05cfe5;}
+.color5 {background-color: #0ffff8;}
+
+
+
+.color6  {background-color: #3d87e7;}
+.color7  {background-color: #eff1ff;}
+.color8  {background-color: #141a35;}
+.color9  {background-color: #77777c;}
+.color10 {background-color: #e2e2e2;}
+*/
+
+/*# sourceMappingURL=style.css.map */
+.color6  {background-color: #3d87e7;}
