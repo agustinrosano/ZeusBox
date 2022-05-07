@@ -27,3 +27,25 @@
 .caja {
 @include productobot
 }
+
+
+/*-prodcutos gaps internos--*/
+
+$marginimg: 18%;
+
+@mixin mrimg { margin-top: $marginimg ;} 
+    
+.margimg {
+    @include mrimg 
+}
+
+/*---x2*/
+$marginimg2: 28%;
+
+@mixin mrimg2 { margin-top: $marginimg2 ;} 
+    
+.margimg2 {
+    @include mrimg2 
+}
+
+

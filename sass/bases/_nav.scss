@@ -10,21 +10,16 @@ header {
            
            .zeusnav {
                 @include zeusnav
-
+              
            }
 
            ul {
                font-size: 20px;
                 li { 
-                    ul{font-size: 15px;
-                        li{
-                        
-                        
-                        }
-                    }
+                    ul{font-size: 15px;                       
                 }
            }
         }
     }
 }
-
+}

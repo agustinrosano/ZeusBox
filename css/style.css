@@ -4,6 +4,7 @@
 }
 
 /* zonaproducto */
+/*nav*/
 header nav {
   position: relative;
   display: flex;
@@ -23,6 +24,7 @@ header nav div ul {
 header nav div ul li ul {
   font-size: 15px;
 }
+
 .carmar {
   margin: 5%;
 }
@@ -76,6 +78,16 @@ header nav div ul li ul {
 
 .caja {
   margin: 1.2%;
+}
+
+/*-prodcutos gaps internos--*/
+.margimg {
+  margin-top: 18%;
+}
+
+/*---x2*/
+.margimg2 {
+  margin-top: 28%;
 }
 
 .titulozeus {
