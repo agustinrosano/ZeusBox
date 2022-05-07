@@ -23,18 +23,23 @@
 .tituloprod {
     display: flex;
     justify-content: center;
+    font-size: 30px;
+    margin: 18rem 0 10rem 0;
     
 }
 .metopagot {
     display: flex;
     justify-content:center;
+    font-size: 30px;
+    margin: 18rem 0 12rem 0;
     
 }
 
 .metopaimg {
-   display: block;
-  justify-content: center;
+   display: flex;
+     justify-content: center;
     margin : 5%;
+    margin-left: 7% ;
     width: 75%;
 }
 

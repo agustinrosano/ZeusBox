@@ -18,12 +18,11 @@ header nav div .zeusnav {
   text-decoration: none;
 }
 header nav div ul {
-  font-size: 25px;
-}
-header nav div ul li ul li {
   font-size: 20px;
 }
-
+header nav div ul li ul {
+  font-size: 15px;
+}
 .carmar {
   margin: 5%;
 }
@@ -48,17 +47,22 @@ header nav div ul li ul li {
 .tituloprod {
   display: flex;
   justify-content: center;
+  font-size: 30px;
+  margin: 18rem 0 10rem 0;
 }
 
 .metopagot {
   display: flex;
   justify-content: center;
+  font-size: 30px;
+  margin: 18rem 0 12rem 0;
 }
 
 .metopaimg {
-  display: block;
+  display: flex;
   justify-content: center;
   margin: 5%;
+  margin-left: 7%;
   width: 75%;
 }
 
