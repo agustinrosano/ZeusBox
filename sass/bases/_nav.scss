@@ -6,5 +6,25 @@ header {
         align-items: center;
         background-color: #3d87e7 ;
 
+        div {
+           
+           .zeusnav {
+                @include zeusnav
+
+           }
+
+           ul {
+               font-size: 25px;
+                li { 
+                    ul{
+                        li{
+                        font-size: 20px;
+                        
+                        }
+                    }
+                }
+           }
+        }
     }
 }
+

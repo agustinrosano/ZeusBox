@@ -1,11 +1,29 @@
 
-.titulozona { display: flex;
+
+
+@mixin  productobot  {
+    
+    margin: $productobottom;
+   
+}
+
+
+
+@mixin colortitu {
+    display: flex;
     justify-content: center;
-    margin: 10%;
+    margin: 8%;
+    font-size: 60px;
+    color: $colortitulo;
 }
 
 
-.gap1 {
-margin: 3%;
+.titulozona {
+   
+    @include colortitu
 }
 
+
+.caja {
+@include productobot
+}

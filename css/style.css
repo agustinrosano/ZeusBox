@@ -3,12 +3,25 @@
   padding: 0%;
 }
 
+/* zonaproducto */
 header nav {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   background-color: #3d87e7;
+}
+header nav div .zeusnav {
+  margin-left: 2%;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+header nav div ul {
+  font-size: 25px;
+}
+header nav div ul li ul li {
+  font-size: 20px;
 }
 
 .carmar {
@@ -52,11 +65,13 @@ header nav {
 .titulozona {
   display: flex;
   justify-content: center;
-  margin: 10%;
+  margin: 8%;
+  font-size: 60px;
+  color: rgba(31, 122, 242, 0.8901960784);
 }
 
-.gap1 {
-  margin: 3%;
+.caja {
+  margin: 1.2%;
 }
 
 .titulozeus {
@@ -96,7 +111,7 @@ footer {
 
 .redes-sociales i {
   font-size: 40px;
-  padding: 0 20px 0 20px;
+  padding: 0 40px 0 40px;
 }
 
 .copy {
@@ -106,21 +121,48 @@ footer {
   justify-content: center;
 }
 
-/*
-.color1 {background-color: #112c3d;}
-.color2 {background-color: #0d536b;}
-.color3 {background-color: #0989a4;}
-.color4 {background-color: #05cfe5;}
-.color5 {background-color: #0ffff8;}
+.botonred {
+  color: black;
+}
 
+.color1 {
+  background-color: #112c3d;
+}
 
+.color2 {
+  background-color: #0d536b;
+}
 
-.color6  {background-color: #3d87e7;}
-.color7  {background-color: #eff1ff;}
-.color8  {background-color: #141a35;}
-.color9  {background-color: #77777c;}
-.color10 {background-color: #e2e2e2;}
-*/
+.color3 {
+  background-color: #478de8;
+}
+
+.color4 {
+  background-color: #05cfe5;
+}
+
+.color5 {
+  background-color: #0ffff8;
+}
+
+.color6 {
+  background-color: #3d87e7;
+}
+
+.color7 {
+  background-color: #eff1ff;
+}
+
+.color8 {
+  background-color: #141a35;
+}
+
+.color9 {
+  background-color: #77777c;
+}
+
+.color10 {
+  background-color: #e2e2e2;
+}
 
 /*# sourceMappingURL=style.css.map */
-.color6  {background-color: #3d87e7;}

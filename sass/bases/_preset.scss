@@ -3,3 +3,18 @@
     padding: 0%; 
     
 }
+
+/* zonaproducto */
+$productobottom:1.2%;
+
+$colortitulo:#1f7af2e3;
+
+
+$zeusbox: white;
+
+@mixin zeusnav {
+    margin-left: 2%;
+    font-size: 30px;
+    color: $zeusbox;
+    text-decoration:none
+}
