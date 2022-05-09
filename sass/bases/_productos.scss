@@ -12,15 +12,24 @@
 @mixin colortitu {
     display: flex;
     justify-content: center;
-    margin: 8%;
     font-size: 60px;
-    color: $colortitulo;
+   
 }
 
 
 .titulozona {
-   
+    display:flex;
+    justify-content:center; 
+    padding:8%; 
+    font-size:60px;
+    color:#fff; 
+    background-image:url(https://cdn.theathletic.com/app/uploads/2022/04/05121746/Rebounds_Article-scaled.jpg); 
+    background-size: cover;
+    background-position:top center; 
+    background-repeat:no-repeat;
     @include colortitu
+    
+
 }
 
 
