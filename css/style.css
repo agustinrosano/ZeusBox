@@ -123,6 +123,14 @@ header nav div ul li ul {
   font-size: 30px;
 }
 
+.centermap {
+  text-align: center;
+}
+
+iframe {
+  width: 50%;
+}
+
 footer {
   margin-top: 10%;
 }
