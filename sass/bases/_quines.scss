@@ -1,12 +1,22 @@
 .titulozeus {
-    margin:  10%;
     display: flex;
     justify-content: center;
+    margin: 0%;
+    padding: 10%; 
+    font-size:60px;
+    color:#3986ebf0; 
+    background-image: url(/imagenes/gimnasio-11_550_750.jpg); 
+    background-size: cover;
+    background-position:top center; 
+    background-repeat:no-repeat;
 }
-
+.cont1 {
+    margin-top: 5%;
+    padding: 0 5rem;
+}
 .parrafozeus {
     margin: 10%;
-    padding: 0% 15%;
+    padding: 2% 15%;
     display: flex;
     justify-content: center;
 
@@ -30,4 +40,8 @@
       text-align: center; }
 
     iframe { width: 50%; }
+
+.imgquines {
+    border-radius: 3px;
+}
 
