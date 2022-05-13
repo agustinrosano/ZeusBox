@@ -49,19 +49,27 @@ header nav div ul li ul {
   margin: 10% 0;
 }
 
+.div-metodo {
+  margin-top: 10rem;
+}
+
 .metopagot {
   display: flex;
   justify-content: center;
   font-size: 30px;
-  margin: 10% 0;
+  margin: 5% 0;
 }
 
 .metopaimg {
   display: flex;
   justify-content: center;
   margin: 5%;
-  margin-left: 7%;
+  margin-left: 15%;
   width: 75%;
+}
+
+.div-footer {
+  margin: 10rem;
 }
 
 .caja2 {
