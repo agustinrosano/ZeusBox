@@ -60,3 +60,16 @@ $marginimg2: 28%;
 }
 
 
+
+/*---x3*/
+
+
+
+$marginimg3: 40%;
+
+@mixin mrimg3 { margin-bottom: $marginimg3;}
+
+
+.margimg3 {
+    @include mrimg3
+}
