@@ -5,21 +5,23 @@ header {
         flex-wrap: wrap;
         align-items: center;
         background-color: #3d87e7 ;
+        color: white;
 
         div {
-           
-           .zeusnav {
-                @include zeusnav
-              
-           }
+        
+        .zeusnav {
+            @include zeusnav
+    
+        }
 
-           ul {
-               font-size: 20px;
-                li { 
-                    ul{font-size: 15px;                       
+        ul {
+            font-size: 20px; color: white;
+                li { color: white;
+                    a {
+                        color: white;
+                    }                  
                 }
-           }
+        }
         }
     }
-}
 }

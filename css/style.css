@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0%;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+  font-family: "Poppins", sans-serif;
 }
 
 /* zonaproducto */
@@ -11,6 +13,7 @@ header nav {
   flex-wrap: wrap;
   align-items: center;
   background-color: #3d87e7;
+  color: white;
 }
 header nav div .zeusnav {
   margin-left: 2%;
@@ -20,9 +23,13 @@ header nav div .zeusnav {
 }
 header nav div ul {
   font-size: 20px;
+  color: white;
 }
-header nav div ul li ul {
-  font-size: 15px;
+header nav div ul li {
+  color: white;
+}
+header nav div ul li a {
+  color: white;
 }
 
 .carmar {
