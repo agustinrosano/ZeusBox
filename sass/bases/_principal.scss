@@ -24,8 +24,23 @@
     margin: 10% 0;
     
 }
-
-
+:hover.hoverdown {
+    background-color: rgba(169, 169, 169, 0.389);
+    color : white;
+}
+.dropdownn {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    /* color: #212529; */
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
 .div-metodo {
     margin-top: 10rem;
     margin-bottom:15rem ;
