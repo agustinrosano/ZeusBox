@@ -16,6 +16,15 @@
     justify-content: center;
     margin :5%;
 }
+.float {
+    float: right;
+    display: flex;
+    justify-content: end;
+}
+.fa-bars {
+    color: #ffffffae;
+    font-size: 30px;
+}
 
 .tituloprod {
     display: flex;

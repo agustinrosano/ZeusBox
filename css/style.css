@@ -49,6 +49,17 @@ header nav div ul li a {
   margin: 5%;
 }
 
+.float {
+  float: right;
+  display: flex;
+  justify-content: end;
+}
+
+.fa-bars {
+  color: rgba(255, 255, 255, 0.6823529412);
+  font-size: 30px;
+}
+
 .tituloprod {
   display: flex;
   justify-content: center;
